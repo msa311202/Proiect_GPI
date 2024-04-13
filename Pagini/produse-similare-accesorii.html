@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse similare - Accesorii</title>
+    <style>
+        /* Stiluri CSS pentru aspect */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            /* culoare de fundal gri deschis */
+        }
+
+        header {
+            background-color: #dcdcdc;
+            /* culoare de fundal gri deschis mai închis */
+            color: #333;
+            /* culoare text gri închis */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #888;
+            /* gri închis */
+            color: #fff;
+            /* text alb */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .back-button {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #ccc;
+            /* culoare gri */
+            color: #333;
+            /* culoare text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #bbb;
+            /* culoare gri mai inchis la hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Produse similare - Accesorii</h1>
+    </header>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product">
+                <img src="../imagini/accesorii1.jpg" alt="Accesoriu 1">
+                <h3>Kit Gaming</h3>
+                <p>Kit Gaming Serioux 4-in-1 Kayel</p>
+            </div>
+            <div class="product">
+                <img src="../imagini/accesorii2.jpg" alt="Accesoriu 2">
+                <h3>Kit Gaming</h3>
+                <p>Kit Gaming Redragon Essentials 3-in-1</p>
+            </div>
+            <div class="product">
+                <img src="../imagini/accesorii3.jpg" alt="Accesoriu 3">
+                <h3>Kit Gaming </h3>
+                <p>Kit Gaming Spacer Invictus</p>
+            </div>
+            <div class="product">
+                <img src="../imagini/accesorii4.jpg" alt="Accesoriu 4">
+                <h3>Kit Gaming </h3>
+                <p>Kit Gaming Redragon S101 Combo</p>
+            </div>
+            <div class="product">
+                <img src="../imagini/accesorii5.jpg" alt="Accesoriu 5">
+                <h3>Kit Gaming</h3>
+                <p>Kit Gaming Redragon S112</p>
+            </div>
+        </div>
+        <button class="back-button" onclick="window.location.href='../index.html'">Înapoi la pagina principală</button>
+    </div>
+</body>
+
+</html>

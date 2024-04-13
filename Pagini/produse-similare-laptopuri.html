@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse similare - Laptopuri</title>
+    <style>
+        /* Stiluri CSS pentru aspect */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            /* culoare de fundal gri deschis */
+        }
+
+        header {
+            background-color: #dcdcdc;
+            /* culoare de fundal gri deschis mai închis */
+            color: #333;
+            /* culoare text gri închis */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #888;
+            /* gri închis */
+            color: #fff;
+            /* text alb */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .back-button {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #ccc;
+            /* culoare gri */
+            color: #333;
+            /* culoare text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #bbb;
+            /* culoare gri mai inchis la hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Produse similare - Laptopuri</h1>
+    </header>
+    <div class="container">
+        <div class="product-grid">
+            <div class="product">
+                <img src="laptop1.jpg" alt="Laptop 1">
+                <h3>Laptop MSI Gaming </h3>
+                <p>Laptop MSI Gaming 18'' Titan 18 HX A14VIG, UHD+ 120Hz, Procesor Intel® Core™ i9 14900HX (36M Cache,
+                    up to 5.80 GHz), 64GB DDR5, 2TB SSD, GeForce RTX 4090 16GB, Win 11 Pro, Core Black</p>
+            </div>
+            <div class="product">
+                <img src="laptop2.jpg" alt="Laptop 2">
+                <h3>Laptop Lenovo Gaming 2</h3>
+                <p>Laptop Lenovo Gaming 16'' Legion 9 16IRX9, 3.2K Mini LED 165Hz G-Sync, Procesor Intel® Core™ i9
+                    14900HX (36M Cache, up to 5.80 GHz), 64GB DDR5, 2x 1TB SSD, GeForce RTX 4090 16GB, No OS, Carbon
+                    Black, 3Yr Onsite Premium Care</p>
+            </div>
+            <div class="product">
+                <img src="laptop3.jpg" alt="Laptop 3">
+                <h3>Laptop ASUS Gaming</h3>
+                <p>Laptop ASUS Gaming 16'' ROG Zephyrus M16 GU604VY, QHD+ Mini LED 240Hz G-Sync, Procesor Intel® Core™
+                    i9-13900H (24M Cache, up to 5.40 GHz), 32GB DDR5, 1TB SSD, GeForce RTX 4090 16GB, Win 11 Home, Off
+                    Black AniMe Matrix</p>
+            </div>
+            <div class="product">
+                <img src="laptop4.jpg" alt="Laptop 4">
+                <h3>Laptop MSI Gaming</h3>
+                <p>Laptop MSI Gaming 17'' Raider GE78 HX 14VIG, QHD+ 240Hz, Procesor Intel® Core™ i9 14900HX (36M Cache,
+                    up to 5.80 GHz), 32GB DDR5, 2TB SSD, GeForce RTX 4090 16GB, Win 11 Pro, Core Black</p>
+            </div>
+            <div class="product">
+                <img src="laptop5.jpg" alt="Laptop 5">
+                <h3>Laptop Acer Gaming</h3>
+                <p>Laptop Acer Gaming 18'' Predator Helios 18 PH18-72, WQXGA Mini LED 250Hz, Procesor Intel® Core™ i9
+                    14900HX (36M Cache, up to 5.80 GHz), 32GB DDR5, 2TB SSD, GeForce RTX 4090 16GB, No OS, Abyssal Black
+                </p>
+            </div>
+        </div>
+        <button class="back-button" onclick="window.location.href='index.html'">Înapoi la pagina principală</button>
+    </div>
+</body>
+
+</html>
